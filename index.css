@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Include this for better layout control */
+}
+
+header {
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 160px;
+    /* Add margin at the bottom to separate the main content from the footer */
+}
+
+main hr {
+    border: 0;
+    background: blue;
+    height: 2.2px;
+    margin: 40px 84px;
+}
+
+body {
+    background-color: rgb(168, 244, 233);
+    color: rgb(5, 8, 57);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* Adjust the alignment as needed */
+    align-items: center;
+    height: 85px;
+    background-color: rgb(252, 252, 97);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.2rem;
+
+
+}
+
+nav ul li a:hover {
+    color: red;
+    font-size: 1.1rem;
+
+
+}
+
+.left {
+    font-size: 1.5rem;
+    color: rgb(224, 19, 19);
+    padding-left: 20px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: ce;
+    margin: 80px 0;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(70, 29, 193);
+}
+
+#element {
+    color: rgb(70, 29, 193);
+}
+
+.hr {
+    border: 0;
+    background: blue;
+    height: 2.2px;
+    margin: 40px 84px;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 2px;
+    background-color: white;
+    margin: 0 100px;
+
+}
+
+.image-top {
+    width: 40px;
+    position: relative;
+    top: -42px;
+    left: -20px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    top: 60px;
+}
+
+.verticle-desc {
+    color: gray;
+    position: relative;
+    top: 65px;
+    width: 150px;
+    font-size: 9px;
+}
+
+footer {
+    background-color: rgb(127, 221, 255);
+    color: rgb(37, 76, 249);
+    padding: 20px;
+    text-align: center;
+    /* Center-align the content in the footer */
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-first,
+.footer-second,
+.footer-third,
+.footer-fourth {
+    margin: 2px;
+    /* Add margin between footer sections */
+}
